@@ -6,7 +6,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "STAND OUT WITH CREATIVE DESIGNS MADE BY JADE",
+            "heading": "ADD JOY TO YOUR LIFE WITH CREATIVE AND FUN ART",
             "heading_size": "large"
           }
         },
@@ -21,8 +21,8 @@
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "EXPLORE PRINTS",
-            "button_link_1": "shopify:\/\/collections\/art-prints",
+            "button_label_1": "EXPLORE OUR STICKER PACKS",
+            "button_link_1": "shopify:\/\/collections\/sticker-packs",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -107,7 +107,7 @@
         "product": {
           "type": "product",
           "settings": {
-            "product": "rainy-day-frog",
+            "product": "party-frog",
             "second_image": false
           }
         },
