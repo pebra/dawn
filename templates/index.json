@@ -36,7 +36,7 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/241745361_378331607026677_8529603735733357640_n_c2e032d6-d932-482a-aa02-f1947e9fb481.jpg",
+        "image": "shopify:\/\/shop_images\/189216039_478338136607361_8399487164161542208_n.jpg",
         "image_overlay_opacity": 40,
         "image_height": "large",
         "adapt_height_first_image": false,
@@ -102,7 +102,7 @@
         "collection-0": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "sticker-packs"
           }
         },
         "product": {
