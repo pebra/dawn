@@ -98,31 +98,31 @@
     "collage": {
       "type": "collage",
       "blocks": {
-        "collection-0": {
+        "collection-1": {
           "type": "collection",
           "settings": {
             "collection": "sticker-packs"
           }
         },
+        "collection-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "mix-match"
+          }
+        },
         "product": {
           "type": "product",
+          "disabled": true,
           "settings": {
             "product": "party-frog",
             "second_image": false
           }
-        },
-        "collection-1": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "collection": ""
-          }
         }
       },
       "block_order": [
+        "collection-1",
         "collection-0",
-        "product",
-        "collection-1"
+        "product"
       ],
       "settings": {
         "heading": "Explore",
