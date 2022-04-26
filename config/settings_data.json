@@ -16,6 +16,7 @@
           },
           "1eaede74-f813-4a44-9812-b6218a6ee46b": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "Please bear with us wile we undergo changes",
               "color_scheme": "accent-1",
