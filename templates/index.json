@@ -81,13 +81,13 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "The Christmas Collection is here!",
+        "title": "ENJOY THE HOLIDAYS IN STYLE",
         "collection": "christmas-collection-graphic-tees",
         "products_to_show": 8,
         "color_scheme": "background-1",
         "show_view_all": true,
         "swipe_on_mobile": false,
-        "image_ratio": "adapt",
+        "image_ratio": "portrait",
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
