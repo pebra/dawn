@@ -51,12 +51,11 @@
     },
     "rich_text": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "DESIGNED FOR YOUR LIFESTYLE",
             "heading_size": "h1"
           }
         },
