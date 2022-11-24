@@ -12,9 +12,8 @@
         },
         "text": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text": "NOW OFFERING SWEATERS AND GRAPHIC TEES",
             "text_style": "body"
           }
         },
