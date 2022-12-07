@@ -1,6 +1,7 @@
 {
   "current": {
     "colors_accent_1": "#121212",
+    "card_color_scheme": "background-1",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
