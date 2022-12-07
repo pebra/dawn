@@ -13,15 +13,15 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "NOW OFFERING SWEATERS AND GRAPHIC TEES",
+            "text": "NOW OFFERING MATCHING DESK ACCESSORIES",
             "text_style": "body"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "CHECK OUT OUR CHRISTMAS COLLECTION",
-            "button_link_1": "shopify:\/\/collections",
+            "button_label_1": "CHECK OUT OUR MUG COLLECTION",
+            "button_link_1": "shopify:\/\/collections\/mugs",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
