@@ -12,6 +12,7 @@
         },
         "text": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "NOW OFFERING MATCHING DESK ACCESSORIES",
             "text_style": "body"
