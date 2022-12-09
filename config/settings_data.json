@@ -1,6 +1,11 @@
 {
   "current": {
+    "colors_solid_button_labels": "#121212",
     "colors_accent_1": "#121212",
+    "gradient_accent_1": "linear-gradient(180deg, rgba(18, 18, 18, 1), rgba(127, 72, 176, 1) 50%, rgba(48, 145, 211, 1) 100%)",
+    "colors_background_1": "#FFFFFF",
+    "heading_scale": 105,
+    "buttons_border_thickness": 5,
     "card_color_scheme": "background-1",
     "sections": {
       "announcement-bar": {
