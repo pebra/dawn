@@ -94,23 +94,6 @@
         "padding_bottom": 36
       }
     },
-    "165162489392c7deea": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "JOURNALS",
-        "collection": "journals",
-        "products_to_show": 4,
-        "color_scheme": "background-1",
-        "show_view_all": true,
-        "swipe_on_mobile": false,
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "collage": {
       "type": "collage",
       "blocks": {
@@ -218,7 +201,6 @@
     "image_banner",
     "rich_text",
     "featured_collection",
-    "165162489392c7deea",
     "collage",
     "video",
     "multicolumn"
