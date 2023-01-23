@@ -80,7 +80,7 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "NEW ARRIVALS",
+        "title": "DESK MATS",
         "collection": "desk-mats",
         "products_to_show": 8,
         "color_scheme": "background-1",
