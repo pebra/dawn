@@ -216,6 +216,16 @@
             {%- endif -%}
             <div {{ block.shopify_attributes }}>
               {%- form 'product', product, id: 'product-form-installment', class: 'installment caption-large' -%}
+
+              {%- if product.template_suffice == 'fidget' -%}
+                <p class="cart-attribute__field">
+                  <label>Keycap color</label><br>
+                  <select required class="required" id="keycap-color" name="properties[Keycap color]">
+                    <option value="Mint Green">Mint Green</option>
+                    <option value="Milky White">Milky White</option>
+                  </select>
+                </p>
+              {%- endif -%}
                 <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
                 {{ form | payment_terms }}
               {%- endform -%}
