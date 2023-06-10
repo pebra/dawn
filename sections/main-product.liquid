@@ -220,7 +220,7 @@
               {%- if product.template_suffix == 'fidget' -%}
                 <p class="cart-attribute__field">
                   <label>Main Color</label><br>
-                  <select required class="required" id="main-color" name="properties[Main color]">
+                  <select required class="required" id="main-color" name="properties[Main color]" form="{{product_form_id}}">
                     <option value="White">White</option>
                     <option value="Black">Black</option>
                     <option value="Light Pink">Light Pink</option>
@@ -232,7 +232,7 @@
                 </p>
                 <p class="line-item-property__field">
                   <label>Keycap Color</label><br>
-                  <select required class="required" id="keycap-color" name="properties[Keycap color]">
+                  <select required class="required" id="keycap-color" name="properties[Keycap color]" form="{{product_form_id}}">
                     <option value="Bright White">Bright White</option>
                     <option value="Frosted White">Frosted White</option>
                     <option value="Clear">Clear</option>
