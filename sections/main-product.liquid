@@ -250,6 +250,20 @@
                     <option value="Powder">Blue</option>
                   </select>
                 </p>
+                <p class="line-item-property__field">
+                  <label>Switch</label><br>
+                  <select required class="required product-form__select" id="keycap-color" name="properties[Switch]" form="{{product_form_id}}">
+                    <option value="Kailh Pro Purple">Kailh Pro Purple</option>
+                    <option value="Kailh Box Brown">Kailh Box Brown</option>
+                    <option value="Kailh Pro Light Green">Kailh Pro Light Green</option>
+                    <option value="KTT Peach">KTT Peach</option>
+                    <option value="KTT Sea Salt Lemon">KTT Sea Salt Lemon</option>
+                    <option value="Grapefruit">Grapefruit</option>
+                    <option value="JWICK Black V2">JWICK Black V2</option>
+                    <option value="Outemu Lime">Outemu Lime</option>
+                    <option value="Gateron Milky Yellow"></option>
+                  </select>
+                </p>
               {%- endif -%}
                 <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
                 {{ form | payment_terms }}
