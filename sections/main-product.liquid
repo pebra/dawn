@@ -219,10 +219,35 @@
 
               {%- if product.template_suffix == 'fidget' -%}
                 <p class="cart-attribute__field">
-                  <label>Keycap color</label><br>
+                  <label>Main Color</label><br>
+                  <select required class="required" id="main-color" name="properties[Main color]">
+                    <option value="White">White</option>
+                    <option value="Black">Black</option>
+                    <option value="Light Pink">Light Pink</option>
+                    <option value="Coral">Coral</option>
+                    <option value="Blue">Blue</option>
+                    <option value="Green">Green</option>
+                    <option value="Purple">Purple</option>
+                  </select>
+                </p>
+                <p class="cart-attribute__field">
+                  <label>Keycap Color Color</label><br>
                   <select required class="required" id="keycap-color" name="properties[Keycap color]">
-                    <option value="Mint Green">Mint Green</option>
-                    <option value="Milky White">Milky White</option>
+                    <option value="Bright White">Bright White</option>
+                    <option value="Frosted White">Frosted White</option>
+                    <option value="Clear">Clear</option>
+                    <option value="Black">Black</option>
+                    <option value="Light Pink">Light Pink</option>
+                    <option value="Blush">Blush</option>
+                    <option value="Orange">Orange</option>
+                    <option value="Mint">Mint</option>
+                    <option value="Green">Green</option>
+                    <option value="Baby Blue">Baby Blue</option>
+                    <option value="Sky Blue">Sky Blue</option>
+                    <option value="Pale Yellow">Pale Yellow</option>
+                    <option value="Yellow">Yellow</option>
+                    <option value="Beige">Beige</option>
+                    <option value="Powder">Blue</option>
                   </select>
                 </p>
               {%- endif -%}
