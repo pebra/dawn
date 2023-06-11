@@ -218,7 +218,7 @@
               {%- form 'product', product, id: 'product-form-installment', class: 'installment caption-large' -%}
 
               {%- if product.template_suffix == 'fidget' -%}
-                <p class="cart-attribute__field">
+                <p class="cart-attribute__field customer">
                   <label>Select Main Color</label><br>
                   <select required class="required product-form__input select__select" id="main-color" name="properties[Main color]" form="{{product_form_id}}">
                     <option value="White">White</option>
@@ -230,7 +230,7 @@
                     <option value="Purple">Purple</option>
                   </select>
                 </p>
-                <p class="line-item-property__field">
+                <p class="line-item-property__field customer">
                   <label>Select Keycap Color</label><br>
                   <select required class="required product-form__input select__select" id="keycap-color" name="properties[Keycap color]" form="{{product_form_id}}">
                     <option value="Bright White">Bright White</option>
@@ -250,7 +250,7 @@
                     <option value="Powder">Blue</option>
                   </select>
                 </p>
-                <p class="line-item-property__field">
+                <p class="line-item-property__field customer">
                   <label>Select Switch</label><br>
                   <select required class="required product-form__input select__select" id="keycap-color" name="properties[Switch]" form="{{product_form_id}}">
                     <option value="Kailh Pro Purple">Kailh Pro Purple</option>
