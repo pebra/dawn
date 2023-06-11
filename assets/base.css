@@ -1572,7 +1572,7 @@ details[open] > .share-button__fallback {
 .customer .field input,
 .customer select {
   -webkit-appearance: none;
-  appearance: none;
+  appearance: auto;
   background-color: rgb(var(--color-background));
   color: rgb(var(--color-foreground));
   font-size: 1.6rem;
