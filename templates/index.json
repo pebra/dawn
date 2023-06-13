@@ -21,8 +21,8 @@
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "NEW ARRIVALS",
-            "button_link_1": "shopify:\/\/collections\/new-arrivals",
+            "button_label_1": "Shop Fidgets",
+            "button_link_1": "shopify:\/\/collections\/desk-toys",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
