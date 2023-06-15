@@ -218,18 +218,20 @@
               {%- form 'product', product, id: 'product-form-installment', class: 'installment caption-large' -%}
 
               {%- if product.template_suffix == 'fidget' -%}
-                <p class="cart-attribute__field customer">
-                  <label>Select Base Color</label><br>
-                  <select required class="required product-form__input select__select" id="base-color" name="properties[Base color]" form="{{product_form_id}}">
-                    <option value="White">White</option>
-                    <option value="Black">Black</option>
-                    <option value="Light Pink">Light Pink</option>
-                    <option value="Coral">Coral</option>
-                    <option value="Blue">Blue</option>
-                    <option value="Green">Green</option>
-                    <option value="Purple">Purple</option>
-                  </select>
-                </p>
+                {%- if product.template_suffix != 'b-grade-fidget' -%}
+                  <p class="cart-attribute__field customer">
+                    <label>Select Base Color</label><br>
+                    <select required class="required product-form__input select__select" id="base-color" name="properties[Base color]" form="{{product_form_id}}">
+                      <option value="White">White</option>
+                      <option value="Black">Black</option>
+                      <option value="Light Pink">Light Pink</option>
+                      <option value="Coral">Coral</option>
+                      <option value="Blue">Blue</option>
+                      <option value="Green">Green</option>
+                      <option value="Purple">Purple</option>
+                    </select>
+                  </p>
+                {%- endif -%}
                 <p class="line-item-property__field customer">
                   <label>Select Keycap Color</label><br>
                   <select required class="required product-form__input select__select" id="keycap-color" name="properties[Keycap color]" form="{{product_form_id}}">
