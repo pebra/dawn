@@ -217,7 +217,7 @@
             <div {{ block.shopify_attributes }}>
               {%- form 'product', product, id: 'product-form-installment', class: 'installment caption-large' -%}
 
-              {%- if product.template_suffix == 'fidget' -%}
+              {%- if product.template_suffix == 'fidget' || product.template_suffix == 'b-grade-fidget' -%}
                 {%- if product.template_suffix != 'b-grade-fidget' -%}
                   <p class="cart-attribute__field customer">
                     <label>Select Base Color</label><br>
