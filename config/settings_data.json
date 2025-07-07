@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "colors_solid_button_labels": "#FFFFFF",
@@ -23,7 +32,7 @@
           "1eaede74-f813-4a44-9812-b6218a6ee46b": {
             "type": "announcement",
             "settings": {
-              "text": "NO FULFILLMENT FROM OCT 04-19 \/ FREE SHIPPING ON ORDERS OVER $50 TO US & CANADA",
+              "text": "FREE SHIPPING ON ORDERS OVER $50 TO US & CANADA",
               "color_scheme": "accent-1",
               "link": ""
             }
@@ -33,14 +42,13 @@
           "announcement-bar-0",
           "1eaede74-f813-4a44-9812-b6218a6ee46b"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "header": {
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
-          "logo": "shopify:\/\/shop_images\/IMG_1179.png",
+          "logo": "shopify://shop_images/IMG_1179.png",
           "logo_width": 200,
           "logo_position": "top-center",
           "menu": "main-menu",
@@ -70,7 +78,7 @@
             "type": "text",
             "settings": {
               "heading": "Our mission",
-              "subtext": "<p>VanCrafts is dedicated to bringing you one of a kind unique designs through our love of art and design<\/p>"
+              "subtext": "<p>VanCrafts is dedicated to bringing you one of a kind unique designs through our love of art and design</p>"
             }
           }
         },
@@ -94,28 +102,24 @@
       },
       "main-password-header": {
         "type": "main-password-header",
-        "settings": {
-        }
+        "settings": {}
       },
       "main-password-footer": {
         "type": "main-password-footer",
-        "settings": {
-        }
+        "settings": {}
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "15683396631634586217": {
-        "type": "shopify:\/\/apps\/inbox\/blocks\/chat\/841fc607-4181-4ad1-842d-e24d7f8bad6b",
+        "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
         "disabled": false,
         "settings": {
           "button_color": "#000000",
           "button_icon": "chat_bubble",
+          "button_text": "chat_with_us",
           "button_horizontal_position": "bottom_right",
           "button_vertical_position": "lowest",
-          "button_text": "chat_with_us",
           "greeting_message": "👋 Hi, message us with any questions. We're happy to help!"
         }
       }
@@ -137,8 +141,7 @@
           "block_order": [
             "announcement-bar-0"
           ],
-          "settings": {
-          }
+          "settings": {}
         },
         "header": {
           "type": "header",
@@ -151,8 +154,7 @@
           "blocks": {
             "footer-0": {
               "type": "link_list",
-              "settings": {
-              }
+              "settings": {}
             },
             "footer-1": {
               "type": "link_list",
@@ -181,13 +183,11 @@
         },
         "main-password-header": {
           "type": "main-password-header",
-          "settings": {
-          }
+          "settings": {}
         },
         "main-password-footer": {
           "type": "main-password-footer",
-          "settings": {
-          }
+          "settings": {}
         }
       }
     }
